@@ -1,16 +1,6 @@
-# Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success
-
-**Project website: https://openvla-oft.github.io/**
-
-**Paper: https://arxiv.org/abs/2502.19645**
-
-**Summary video: https://youtu.be/T3Zkkr_NTSA**
-
 # OpenVLA-OFT for UR5e Pick & Place
 
-Fine-tuning **OpenVLA-7B** with the **OFT** recipe (LoRA + L1-regression action head + action chunking + proprioception) to perform autonomous **Pick & Place** on a **UR5e** arm, served in real time through a **ROS2 + ZeroMQ** pipeline.
-
-Built on top of [moojink/openvla-oft](https://github.com/moojink/openvla-oft).
+Fine-tuning **OpenVLA-7B** with the **OFT** recipe (LoRA + L1-regression action head + action chunking + proprioception) for autonomous **Pick & Place** on a **UR5e** arm, served in real time through a **ROS2 + ZeroMQ** pipeline.
 
 ---
 
@@ -146,4 +136,4 @@ Launch the processes (separate terminals): UR driver → `camera_stream.py` → 
 ## Acknowledgements
 
 - [OpenVLA](https://github.com/openvla/openvla)
-- [OpenVLA-OFT](https://github.com/moojink/openvla-oft)
+- [OpenVLA-OFT](https://github.com/moojink/openvla-oft) — [paper](https://arxiv.org/abs/2502.19645)
